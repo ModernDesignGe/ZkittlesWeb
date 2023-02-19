@@ -1,0 +1,67 @@
+@import "../../../../colors.scss";
+.Section {
+    background: conic-gradient(
+        from 180deg at 50% 50%,
+        rgba(5, 66, 44, 0.6) -4.67deg,
+        #05422c 299.08deg,
+        rgba(5, 66, 44, 0.6) 355.33deg,
+        #05422c 659.08deg
+    );
+    padding: 150px 0;
+    position: relative;
+}
+.SectionSplitter {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.textSide {
+    .starterAction {
+        color: $Yellow;
+        font-family: main_r;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .starterName {
+        color: $White;
+        letter-spacing: 2px;
+        font-family: main_sb;
+    }
+    .starterAddons {
+        color: $White_;
+        letter-spacing: 2px;
+        font-family: main_r;
+    }
+}
+.starterSale {
+    display: flex;
+    align-items: center;
+    color: $White;
+    font-family: main_m;
+    font-size: 20px;
+    margin-top: 80px;
+    .starterLineV {
+        height: 20px;
+        width: 1px;
+        background: $Placeholder;
+        margin: 0 20px;
+    }
+}
+.starterButton {
+    font-family: main_r;
+
+    padding: 15px 30px;
+
+    border-radius: 30px;
+    background: $Lime;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.starterImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
